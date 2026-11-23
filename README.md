@@ -1,14 +1,14 @@
 # NT Engineering
 
-vgstation13's Engineering department for Minecraft (NeoForge 1.21.1), built on [ZAS³](https://github.com/west3436/zas-cubed).
+vgstation13's Engineering department for Minecraft (NeoForge 1.21.1), built on [ZAS³](https://github.com/west3436/zas-cubed) and [SS13 Framework](https://github.com/west3436/ss13-framework).
 
 > **Status: planning.** There is no playable build yet. The plan lives in [docs/design-proposal.md](docs/design-proposal.md).
 
 ## Goals
 
-- **An SS13 power grid.** Cables, APCs, SMES and power monitors. When installed, APCs power every ZAS³ atmos device in their area.
-- **vg's engine ladder.** Solars and combustion early, the TEG and antimatter engine mid game, supermatter and the singularity late.
-- **SS13-style construction.** Machines are built from frames, circuit boards and tiered parts, and upgraded in place. An autolathe prints parts and wall-mounted devices.
+- **An SS13 power grid.** Cables, APCs, SMES and power monitors. When installed, APCs power every ZAS³ atmos device in their area through SS13 Framework's power contract.
+- **vg's engine ladder.** Solars and combustion early, the TEG and antimatter engine mid game, supermatter and the singularity late. ZAS³'s TEG and gas turbine feed the grid.
+- **SS13-style construction.** Machines are built from SS13 Framework's frames, circuit boards and tiered parts, and upgraded in place. An autolathe prints parts and wall-mounted devices.
 - **A Stationeers layer.** Cable capacity ceilings and an alloy furnace gated on gas temperature and pressure.
 
 ## License
